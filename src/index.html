@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Pizza Factory</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="pizza.js"></script>
+    <script type="text/javascript" src="interaction.js"></script>
+    <script type="text/javascript" src="moment.min.js"></script>
+</head>
+<body>
+    <img id="logo" src="logo.png" />
+    <div id="bar"></div>
+    <div id="menu">
+        <h1>CREATE THE PIZZA OF YOUR DREAMS</h1>
+        <div class="section">
+            <div class="left">
+                <h2>SIZE</h2>
+            </div>
+            <div class="right">
+                <a class="pizza-size" data-pizza-size="small" href="javascript:void('0');">Small 18cm</a>
+                <a class="pizza-size" data-pizza-size="medium" href="javascript:void('0');">Medium 25cm</a>
+                <a class="pizza-size" data-pizza-size="large" href="javascript:void('0');">Large 35cm</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="section">
+            <div class="left">
+                <h2>CRUST</h2>
+            </div>
+            <div class="right">
+                <a class="pizza-crust" data-pizza-crust="thick" href="javascript:void('0');">Thick</a>
+                <a class="pizza-crust" data-pizza-crust="thin" href="javascript:void('0');">Thin</a>
+                <a class="pizza-crust" data-pizza-crust="factory" href="javascript:void('0');">Factory Special</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="section">
+            <div class="left">
+                <h2>INGREDIENTS</h2>
+            </div>
+            <div class="right">
+                <a class="pizza-ingredient" data-pizza-ingredient="salami" href="javascript:void('0');">Salami</a>
+                <a class="pizza-ingredient" data-pizza-ingredient="prosciutto" href="javascript:void('0');">Prosciutto</a>
+                <a class="pizza-ingredient" data-pizza-ingredient="ham" href="javascript:void('0');">Ham</a>
+                <a class="pizza-ingredient" data-pizza-ingredient="pollo" href="javascript:void('0');">Pollo</a>
+                <div class="ingredient-separator"></div>
+                <a class="pizza-ingredient" data-pizza-ingredient="mozzarella" href="javascript:void('0');">Mozzarella</a>
+                <a class="pizza-ingredient" data-pizza-ingredient="parmesan" href="javascript:void('0');">Parmesan</a>
+                <a class="pizza-ingredient" data-pizza-ingredient="gorgonzola" href="javascript:void('0');">Gorgonzola</a>
+                <div class="ingredient-separator"></div>
+                <a class="pizza-ingredient" data-pizza-ingredient="tomatoes" href="javascript:void('0');">Tomatoes</a>
+                <a class="pizza-ingredient" data-pizza-ingredient="onions" href="javascript:void('0');">Onions</a>
+                <a class="pizza-ingredient" data-pizza-ingredient="olives" href="javascript:void('0');">Olives</a>
+                <a class="pizza-ingredient" data-pizza-ingredient="corn" href="javascript:void('0');">Corn</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="right">
+             <label id="price"></label>
+            <a class="main-button" id="order" href="javascript:void('0');">
+                ORDER NOW
+            </a>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="history">
+        <h1>PREVIOUS ORDERS</h1>
+    </div>
+    <div id="footer">
+        &copy; 2018 - The Pizza Factory
+    </div>
+</body>
+</html>
